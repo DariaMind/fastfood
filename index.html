@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="f1">
+        <fieldset>
+            <legend>SIZE</legend>
+            <label>
+                <img src="large.jpg" alt="">
+                <input type="radio" 
+                        name="size" 
+                        value="large"
+                        checked>
+            </label>
+            <label>
+                <img src="small.jpg" alt="">
+                <input type="radio" 
+                        name="size" 
+                        value="small">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>ADD</legend>
+            <label>
+                <img src="cheese.jpg" alt="">
+                <input type="checkbox" 
+                        name="add" 
+                        value="cheese"
+                        checked>
+            </label>
+            <label>
+                <img src="salad.jpg" alt="">
+                <input type="checkbox" 
+                        name="add" 
+                        value="salad">
+            </label>
+            <label>
+                <img src="potato.jpg" alt="">
+                <input type="checkbox" 
+                        name="add" 
+                        value="potato">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>TOPP</legend>
+            <label>
+                <img src="mayonez.jpg" alt="">
+                <input type="checkbox" 
+                        name="topp" 
+                        value="mayonez">
+            </label>
+            <label>
+                <img src="spice.jpg" alt="">
+                <input type="checkbox" 
+                        name="topp" 
+                        value="spice">
+            </label>
+        </fieldset>
+        <input type="submit" name="calc" value="Calc">
+    </form>
+    <div id="res">price & kcal</div>
+    <script src="script.js"></script>
+</body>
+</html>
